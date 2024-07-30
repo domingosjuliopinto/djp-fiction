@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import { Tooltip } from 'antd';
+import { QuestionCircleOutlined } from '@ant-design/icons';
 
 // Import Static Content
 import './Home.css';
@@ -12,70 +14,57 @@ function Home() {
   return (
     <div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div style={{marginTop:"3%"}}>
+          <img src={logo} className="App-logo" alt="logo" />
+        </div>
         <Container>
           <Row>
-            <Col xs={12} sm={10} md={8} lg={6} xl={4} className='center_align'>
+            <Col xs={10} md={6} lg={4} className='center_align'>
               <div className="d-grid gap-2 button_color">
                 <Button variant="outline-primary" size="lg">
                   Books
                 </Button>
               </div>
             </Col>
-            <Col xs={12} sm={10} md={8} lg={6} xl={4} className='center_align'>
+            <Col xs={10} md={6} lg={4} className='center_align'>
               <div className="d-grid gap-2 button_color">
                 <Button variant="outline-primary" size="lg">
                   Characters
                 </Button>
               </div>
             </Col>
-            <Col xs={12} sm={10} md={8} lg={6} xl={4} className='center_align'>
+          </Row>
+          <Row>
+            <Col xs={10} md={6} lg={4} className='center_align'>
               <div className="d-grid gap-2 button_color">
                 <Button variant="outline-primary" size="lg">
-                  Championships
+                  Records&nbsp;
+                  <Tooltip placement="right" title="contains Fight Records, Events and Championships">
+                    <QuestionCircleOutlined style={{fontSize:"18px"}}/>
+                  </Tooltip>
+                </Button>
+              </div>
+            </Col>
+            <Col xs={10} md={6} lg={4} className='center_align'>
+              <div className="d-grid gap-2 button_color">
+                <Button variant="outline-primary" size="lg">
+                  Extras&nbsp;
+                  <Tooltip placement="right" title="contains Character Concept and Locations">
+                    <QuestionCircleOutlined style={{fontSize:"18px"}}/>
+                  </Tooltip>
                 </Button>
               </div>
             </Col>
           </Row>
           <Row>
-            <Col xs={12} sm={10} md={8} lg={6} xl={4} className='center_align'>
-              <div className="d-grid gap-2 button_color">
-                <Button variant="outline-primary" size="lg">
-                  Fight Records
-                </Button>
-              </div>
-            </Col>
-            <Col xs={12} sm={10} md={8} lg={6} xl={4} className='center_align'>
-              <div className="d-grid gap-2 button_color">
-                <Button variant="outline-primary" size="lg">
-                  Events
-                </Button>
-              </div>
-            </Col>
-            <Col xs={12} sm={10} md={8} lg={6} xl={4} className='center_align'>
-              <div className="d-grid gap-2 button_color">
-                <Button variant="outline-primary" size="lg">
-                  Locations
-                </Button>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} sm={10} md={8} lg={6} xl={4} className='center_align'>
-              <div className="d-grid gap-2 button_color">
-                <Button variant="outline-primary" size="lg">
-                  Character Concept
-                </Button>
-              </div>
-            </Col>
-            <Col xs={12} sm={10} md={8} lg={6} xl={4} className='center_align'>
+            <Col xs={10} md={6} lg={4} className='center_align'>
               <div className="d-grid gap-2 button_color">
                 <Button variant="outline-primary" size="lg">
                   About
                 </Button>
               </div>
             </Col>
-            <Col xs={12} sm={10} md={8} lg={6} xl={4} className='center_align'>
+            <Col xs={10} md={6} lg={4} className='center_align'>
               <div className="d-grid gap-2 button_color">
                 <Button variant="outline-primary" size="lg">
                   Admin Portal
