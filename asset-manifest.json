@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/djp-fiction/static/css/main.34966e1d.css",
-    "main.js": "/djp-fiction/static/js/main.a42d162a.js",
+    "main.js": "/djp-fiction/static/js/main.0b3bb12d.js",
     "static/js/453.2071f894.chunk.js": "/djp-fiction/static/js/453.2071f894.chunk.js",
     "static/media/logo.png": "/djp-fiction/static/media/logo.a07ace4cc4cee3a2cbe2.png",
     "index.html": "/djp-fiction/index.html",
     "main.34966e1d.css.map": "/djp-fiction/static/css/main.34966e1d.css.map",
-    "main.a42d162a.js.map": "/djp-fiction/static/js/main.a42d162a.js.map",
+    "main.0b3bb12d.js.map": "/djp-fiction/static/js/main.0b3bb12d.js.map",
     "453.2071f894.chunk.js.map": "/djp-fiction/static/js/453.2071f894.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34966e1d.css",
-    "static/js/main.a42d162a.js"
+    "static/js/main.0b3bb12d.js"
   ]
 }
