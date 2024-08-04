@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/djp-fiction/static/css/main.34966e1d.css",
-    "main.js": "/djp-fiction/static/js/main.0b3bb12d.js",
+    "main.css": "/djp-fiction/static/css/main.2f87bb33.css",
+    "main.js": "/djp-fiction/static/js/main.f2be9541.js",
     "static/js/453.2071f894.chunk.js": "/djp-fiction/static/js/453.2071f894.chunk.js",
     "static/media/logo.png": "/djp-fiction/static/media/logo.a07ace4cc4cee3a2cbe2.png",
     "index.html": "/djp-fiction/index.html",
-    "main.34966e1d.css.map": "/djp-fiction/static/css/main.34966e1d.css.map",
-    "main.0b3bb12d.js.map": "/djp-fiction/static/js/main.0b3bb12d.js.map",
+    "main.2f87bb33.css.map": "/djp-fiction/static/css/main.2f87bb33.css.map",
+    "main.f2be9541.js.map": "/djp-fiction/static/js/main.f2be9541.js.map",
     "453.2071f894.chunk.js.map": "/djp-fiction/static/js/453.2071f894.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34966e1d.css",
-    "static/js/main.0b3bb12d.js"
+    "static/css/main.2f87bb33.css",
+    "static/js/main.f2be9541.js"
   ]
 }
