@@ -1,10 +1,9 @@
 // Import Packages
+import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import { Tooltip } from 'antd';
-import { QuestionCircleOutlined } from '@ant-design/icons';
 
 // Import Static Content
 import './Home.css';
@@ -38,31 +37,29 @@ function Home() {
             <Col xs={10} md={6} lg={4} className='center_align'>
               <div className="d-grid gap-2 button_color">
                 <Button variant="outline-primary" size="lg">
-                  Records&nbsp;
-                  <Tooltip placement="right" title="contains Fight Records, Events and Championships">
-                    <QuestionCircleOutlined style={{fontSize:"18px"}}/>
-                  </Tooltip>
+                  Records
                 </Button>
               </div>
             </Col>
             <Col xs={10} md={6} lg={4} className='center_align'>
-              <div className="d-grid gap-2 button_color">
-                <Button variant="outline-primary" size="lg">
-                  Extras&nbsp;
-                  <Tooltip placement="right" title="contains Character Concept and Locations">
-                    <QuestionCircleOutlined style={{fontSize:"18px"}}/>
-                  </Tooltip>
-                </Button>
-              </div>
+              <Link to="/extras">
+                <div className="d-grid gap-2 button_color">
+                  <Button variant="outline-primary" size="lg">
+                    Extras
+                  </Button>
+                </div>
+              </Link>
             </Col>
           </Row>
           <Row>
             <Col xs={10} md={6} lg={4} className='center_align'>
-              <div className="d-grid gap-2 button_color">
-                <Button variant="outline-primary" size="lg">
-                  About
-                </Button>
-              </div>
+              <Link to="/about">
+                <div className="d-grid gap-2 button_color">
+                  <Button variant="outline-primary" size="lg">
+                    About
+                  </Button>
+                </div>
+              </Link>
             </Col>
             <Col xs={10} md={6} lg={4} className='center_align'>
               <div className="d-grid gap-2 button_color">
