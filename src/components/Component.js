@@ -15,7 +15,7 @@ import { Button, Layout, Menu } from 'antd';
 
 const { Header, Sider, Content } = Layout;
 
-const Component = ({body}) => {
+const Component = ({body,index}) => {
   const [collapsed, setCollapsed] = useState(false);
 
   return (
@@ -25,7 +25,7 @@ const Component = ({body}) => {
         <Menu
           theme="dark"
           mode="inline"
-          defaultSelectedKeys={['1']}
+          defaultSelectedKeys={index}
           items={[
             {
               key: '1',

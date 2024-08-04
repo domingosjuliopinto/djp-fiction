@@ -19,27 +19,33 @@ function Home() {
         <Container>
           <Row>
             <Col xs={10} md={6} lg={4} className='center_align'>
-              <div className="d-grid gap-2 button_color">
-                <Button variant="outline-primary" size="lg">
-                  Books
-                </Button>
-              </div>
+              <Link to="/books">
+                <div className="d-grid gap-2 button_color">
+                  <Button variant="outline-primary" size="lg">
+                    Books
+                  </Button>
+                </div>
+              </Link>
             </Col>
             <Col xs={10} md={6} lg={4} className='center_align'>
-              <div className="d-grid gap-2 button_color">
-                <Button variant="outline-primary" size="lg">
-                  Characters
-                </Button>
-              </div>
+              <Link to="/characters">
+                <div className="d-grid gap-2 button_color">
+                  <Button variant="outline-primary" size="lg">
+                    Characters
+                  </Button>
+                </div>
+              </Link>
             </Col>
           </Row>
           <Row>
             <Col xs={10} md={6} lg={4} className='center_align'>
-              <div className="d-grid gap-2 button_color">
-                <Button variant="outline-primary" size="lg">
-                  Records
-                </Button>
-              </div>
+              <Link to="/records">
+                <div className="d-grid gap-2 button_color">
+                  <Button variant="outline-primary" size="lg">
+                    Records
+                  </Button>
+                </div>
+              </Link>
             </Col>
             <Col xs={10} md={6} lg={4} className='center_align'>
               <Link to="/extras">
@@ -62,11 +68,13 @@ function Home() {
               </Link>
             </Col>
             <Col xs={10} md={6} lg={4} className='center_align'>
-              <div className="d-grid gap-2 button_color">
-                <Button variant="outline-primary" size="lg">
-                  Admin Portal
-                </Button>
-              </div>
+              <Link to="/admin">
+                <div className="d-grid gap-2 button_color">
+                  <Button variant="outline-primary" size="lg">
+                    Admin Portal
+                  </Button>
+                </div>
+              </Link>  
             </Col>
           </Row>
         </Container>
