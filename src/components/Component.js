@@ -1,5 +1,5 @@
 // Import Packages
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
@@ -12,11 +12,18 @@ import {
   UserSwitchOutlined,
 } from '@ant-design/icons';
 import { Button, Layout, Menu } from 'antd';
+import { Link } from 'react-router-dom';
 
 const { Header, Sider, Content } = Layout;
 
 const Component = ({body,index}) => {
   const [collapsed, setCollapsed] = useState(false);
+
+  useEffect(()=>{
+    if(window.innerWidth<600){
+      setCollapsed(true)
+    }
+  },[setCollapsed])
 
   return (
     <Layout style={{height:"100vh"}}>
@@ -30,37 +37,37 @@ const Component = ({body,index}) => {
             {
               key: '1',
               icon: <HomeOutlined />,
-              label: 'Home',
+              label: (<Link to='/home'>Home</Link>),
             },
             {
               key: '2',
               icon: <BookOutlined />,
-              label: 'Books',
+              label: (<Link to='/books'>Books</Link>),
             },
             {
               key: '3',
               icon: <UserOutlined />,
-              label: 'Characters',
+              label: (<Link to='/characters'>Characters</Link>),
             },
             {
               key: '4',
               icon: <OrderedListOutlined />,
-              label: 'Records',
+              label: (<Link to='/records'>Records</Link>),
             },
             {
               key: '5',
               icon: <CameraOutlined />,
-              label: 'Extras',
+              label: (<Link to='/extras'>Extras</Link>),
             },
             {
               key: '6',
               icon: <InfoCircleOutlined />,
-              label: 'About',
+              label: (<Link to='/about'>About</Link>),
             },
             {
               key: '7',
               icon: <UserSwitchOutlined />,
-              label: 'Admin Portal',
+              label: (<Link to='/admin'>Admin Portal</Link>),
             },
           ]}
         />

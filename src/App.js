@@ -18,6 +18,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />}/>  
             <Route path="/djp-fiction" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/books" element={<Component body={<Books/>} index='2'/>}/> 
             <Route path="/characters" element={<Component body={<Characters/>} index='3'/>}/> 
             <Route path="/records" element={<Component body={<Records/>}/>} index='4'/> 
