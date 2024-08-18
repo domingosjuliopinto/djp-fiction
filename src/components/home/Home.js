@@ -13,7 +13,7 @@ function Home() {
   return (
     <div>
       <header className="App-header">
-        <div style={{marginTop:"3%"}}>
+        <div className='logo_header center_align'>
           <img src={logo} className="App-logo" alt="logo" />
         </div>
         <Container>

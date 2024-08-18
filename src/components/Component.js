@@ -26,7 +26,7 @@ const Component = ({body,index}) => {
   },[setCollapsed])
 
   return (
-    <Layout style={{height:"100vh"}}>
+    <Layout style={{height:"100%",minHeight:"100vh"}}>
       <Sider trigger={null} collapsible collapsed={collapsed}>
         <div className="demo-logo-vertical" />
         <Menu
