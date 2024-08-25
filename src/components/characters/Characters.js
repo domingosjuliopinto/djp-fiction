@@ -5,16 +5,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // importing Character Images
-import sundayPrian from '../../utils/characters/sunday_Prian/djpf1/sundayPrian_Boroventia_Gym.png'
-import ryushShin from '../../utils/characters/ryush_Shin/djpf1/ryushShin_Boroventia_Gym.png'
-import vaitShin from '../../utils/characters/vait_Shin/djpf1/vaitShin_Boroventia_Gym.png'
-import aayiBarboozaNLhack from '../../utils/characters/aayi_Barbooza_NLhack/djpf1/aayiBarbooza_NLhack.png'
-
-// importing while loading character Images
-import sundayPrian_mini from '../../utils/while_loading/characters/sunday_Prian/djpf1/sundayPrian_Boroventia_Gym.png'
-import ryushShin_mini from '../../utils/while_loading/characters/ryush_Shin/djpf1/ryushShin_Boroventia_Gym.png'
-import vaitShin_mini from '../../utils/while_loading/characters/vait_Shin/djpf1/vaitShin_Boroventia_Gym.png'
-import aayiBarboozaNLhack_mini from '../../utils/while_loading/characters/aayi_Barbooza_NLhack/djpf1/aayiBarbooza_NLhack.png'
+import {sundayPrian_Boroventia_Gym} from '../../utils/image_links/characters/sundayPrian'
+import {ryushShin_Boroventia_Gym} from '../../utils/image_links/characters/ryushShin'
+import {vaitShin_Boroventia_Gym} from '../../utils/image_links/characters/vaitShin'
+import {aayiBarbooza_NLhack} from '../../utils/image_links/characters/aayiBarboozaNLhack'
 
 function Characters() {
     const random = Date.now();
@@ -27,11 +21,11 @@ function Characters() {
                             <Image
                                 preview={false}
                                 width={'75%'}
-                                src={sundayPrian+`?${random}`}
+                                src={sundayPrian_Boroventia_Gym[0]+`?${random}`}
                                 placeholder={
                                 <Image
                                     preview={false}
-                                    src={sundayPrian_mini}
+                                    src={sundayPrian_Boroventia_Gym[1]}
                                     width={'100%'}
                                 />
                                 }
@@ -43,11 +37,11 @@ function Characters() {
                             <Image
                                 preview={false}
                                 width={'75%'}
-                                src={ryushShin+`?${random}`}
+                                src={ryushShin_Boroventia_Gym[0]+`?${random}`}
                                 placeholder={
                                 <Image
                                     preview={false}
-                                    src={ryushShin_mini}
+                                    src={ryushShin_Boroventia_Gym[1]}
                                     width={'100%'}
                                 />
                                 }
@@ -59,11 +53,11 @@ function Characters() {
                             <Image
                                 preview={false}
                                 width={'75%'}
-                                src={vaitShin+`?${random}`}
+                                src={vaitShin_Boroventia_Gym[0]+`?${random}`}
                                 placeholder={
                                 <Image
                                     preview={false}
-                                    src={vaitShin_mini}
+                                    src={vaitShin_Boroventia_Gym[1]}
                                     width={'100%'}
                                 />
                                 }
@@ -75,11 +69,11 @@ function Characters() {
                             <Image
                                 preview={false}
                                 width={'75%'}
-                                src={aayiBarboozaNLhack+`?${random}`}
+                                src={aayiBarbooza_NLhack[0]+`?${random}`}
                                 placeholder={
                                 <Image
                                     preview={false}
-                                    src={aayiBarboozaNLhack_mini}
+                                    src={aayiBarbooza_NLhack[1]}
                                     width={'100%'}
                                 />
                                 }
