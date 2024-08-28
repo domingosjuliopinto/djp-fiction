@@ -8,6 +8,8 @@ import Books from "./components/books/Books";
 import Characters from "./components/characters/Characters";
 import Records from "./components/records/Records";
 import Extras from "./components/extras/Extras";
+import Concept from "./components/extras/concept/Concept";
+import Locations from "./components/extras/locations/Locations";
 import About from "./components/about/About";
 import Admin from "./components/admin/Admin";
 
@@ -23,6 +25,8 @@ function App() {
             <Route path="/characters" element={<Component body={<Characters/>} index='3'/>}/> 
             <Route path="/records" element={<Component body={<Records/>}/>} index='4'/> 
             <Route path="/extras" element={<Component body={<Extras/>}/>} index='5'/> 
+            <Route path="/extras/concept" element={<Component body={<Concept/>}/>} index='5'/> 
+            <Route path="/extras/locations" element={<Component body={<Locations/>}/>} index='5'/> 
             <Route path="/about" element={<Component body={<About/>}/>} index='6'/>
             <Route path="/admin" element={<Component body={<Admin/>}/>} index='7'/>  
         </Routes>

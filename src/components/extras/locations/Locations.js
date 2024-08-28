@@ -1,17 +1,14 @@
-// importing images
-import {boroventia_Road} from '../../utils/image_links/locations/locations'
-import concept_art from '../../utils/concept_art/cropped-sundayPrian_Boroventia_Gym_concept.jpg'
-import concept_art_mini from '../../utils/while_loading/concept_art/cropped-sundayPrian_Boroventia_Gym_concept.jpg'
+// importing locations
+import {boroventia_Gym,boroventia_Road} from '../../../utils/image_links/locations/locations'
 
 // importing packages
-import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 import { Card, Image, Space } from 'antd';
+const { Meta } = Card;
 
-function Extras() {
+function Locations(){
     const random = Date.now();
     return(
         <div style={{marginLeft:'7%'}}>
@@ -27,13 +24,11 @@ function Extras() {
                             cover={
                                 <Space size={12}>
                                     <Image
-                                        preview={false}
-                                    
-                                        src={concept_art+`?${random}`}
+                                        src={boroventia_Gym[0]+`?${random}`}
                                         placeholder={
                                         <Image
                                             preview={false}
-                                            src={concept_art_mini}
+                                            src={boroventia_Gym[1]}
                                             width={'100%'}
                                         />
                                         }
@@ -41,11 +36,7 @@ function Extras() {
                                 </Space>
                             }
                         >
-                            <Link to='/extras/concept'>
-                                <div className="d-grid gap-2">
-                                    <Button>Character Concepts</Button>
-                                </div>
-                            </Link>
+                            <Meta title="Boroventia Gym" style={{cursor:'default'}} />
                         </Card>
                     </Col>
                     <Col xs={12} md={6} style={{marginBottom:'2%'}}>
@@ -58,8 +49,6 @@ function Extras() {
                             cover={
                                 <Space size={12}>
                                     <Image
-                                        preview={false}
-                                    
                                         src={boroventia_Road[0]+`?${random}`}
                                         placeholder={
                                         <Image
@@ -72,11 +61,7 @@ function Extras() {
                                 </Space>
                             }
                         >
-                            <Link to='/extras/locations'>
-                                <div className="d-grid gap-2">
-                                    <Button>Locations</Button>
-                                </div>
-                            </Link>
+                            <Meta title="Boroventia Road" />
                         </Card>
                     </Col>
                 </Row>
@@ -85,4 +70,4 @@ function Extras() {
     )
 }
 
-export default Extras
+export default Locations
