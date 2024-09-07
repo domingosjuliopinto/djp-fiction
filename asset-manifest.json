@@ -1,27 +1,34 @@
 {
   "files": {
     "main.css": "/djp-fiction/static/css/main.89822632.css",
-    "main.js": "/djp-fiction/static/js/main.25c38a0b.js",
+    "main.js": "/djp-fiction/static/js/main.79152b74.js",
     "static/js/453.2071f894.chunk.js": "/djp-fiction/static/js/453.2071f894.chunk.js",
-    "static/media/sundayPrian_Boroventia_Gym_concept.jpg": "/djp-fiction/static/media/sundayPrian_Boroventia_Gym_concept.135c7a1dc1229691ddbf.jpg",
-    "static/media/aayiBarbooza_NLhack_concept.jpg": "/djp-fiction/static/media/aayiBarbooza_NLhack_concept.5eb20c850291944b5de5.jpg",
-    "static/media/ryushShin_Boroventia_Gym_concept.jpg": "/djp-fiction/static/media/ryushShin_Boroventia_Gym_concept.9b3e5b59f93a8d529f8c.jpg",
-    "static/media/vaitShin_Boroventia_Gym_concept.jpg": "/djp-fiction/static/media/vaitShin_Boroventia_Gym_concept.924f9b6a0bc1c103c14e.jpg",
+    "static/media/riverside_Road.jpg": "/djp-fiction/static/media/riverside_Road.0663e23b255bd0155293.jpg",
+    "static/media/sundayPrian_Boroventia_Gym_concept.jpg": "/djp-fiction/static/media/sundayPrian_Boroventia_Gym_concept.451ed2b619cd218f5c8b.jpg",
     "static/media/boroventia_Road.jpg": "/djp-fiction/static/media/boroventia_Road.1c9d1fd27ab643c6057f.jpg",
-    "static/media/cropped-sundayPrian_Boroventia_Gym_concept.jpg": "/djp-fiction/static/media/cropped-sundayPrian_Boroventia_Gym_concept.359f275dc53fb634ca36.jpg",
+    "static/media/ryushShin_Boroventia_Gym_concept.jpg": "/djp-fiction/static/media/ryushShin_Boroventia_Gym_concept.ee1002c2ef124c095d88.jpg",
     "static/media/boroventia_Gym.jpg": "/djp-fiction/static/media/boroventia_Gym.baf3db9eb18f6bc1bc5f.jpg",
+    "static/media/jivaniBel_WWhack_concept.jpg": "/djp-fiction/static/media/jivaniBel_WWhack_concept.1649e2b5606c91b87027.jpg",
+    "static/media/xituAbinoDSteepz_Rockyhack_concept.jpg": "/djp-fiction/static/media/xituAbinoDSteepz_Rockyhack_concept.7bcfe9624963cd1f352c.jpg",
+    "static/media/vaitShin_Boroventia_Gym_concept.jpg": "/djp-fiction/static/media/vaitShin_Boroventia_Gym_concept.65a0e380fb978f778929.jpg",
+    "static/media/aayiBarbooza_NLhack_concept.jpg": "/djp-fiction/static/media/aayiBarbooza_NLhack_concept.efe8bdb4ce23b651dbe8.jpg",
+    "static/media/sundayPrian_Interview_concept.jpg": "/djp-fiction/static/media/sundayPrian_Interview_concept.69d942af314e1104360b.jpg",
+    "static/media/cropped-sundayPrian_Boroventia_Gym_concept.jpg": "/djp-fiction/static/media/cropped-sundayPrian_Boroventia_Gym_concept.bacf42de0f1e6ce962d5.jpg",
     "static/media/sundayPrian_Boroventia_Gym.png": "/djp-fiction/static/media/sundayPrian_Boroventia_Gym.bc5412f6df2ae7765679.png",
     "static/media/ryushShin_Boroventia_Gym.png": "/djp-fiction/static/media/ryushShin_Boroventia_Gym.30b15cc67f89c39f9940.png",
     "static/media/aayiBarbooza_NLhack.png": "/djp-fiction/static/media/aayiBarbooza_NLhack.519c026ffe601bca38fb.png",
     "static/media/vaitShin_Boroventia_Gym.png": "/djp-fiction/static/media/vaitShin_Boroventia_Gym.d8bf7dd0a5faa8526a9a.png",
+    "static/media/jivaniBel_WWhack.png": "/djp-fiction/static/media/jivaniBel_WWhack.d18d1c845e3c11f7b05c.png",
+    "static/media/sundayPrian_Interview.png": "/djp-fiction/static/media/sundayPrian_Interview.9bcbcf1e8f8fedb8508e.png",
+    "static/media/xituAbinoDSteepz_Rockyhack.png": "/djp-fiction/static/media/xituAbinoDSteepz_Rockyhack.50883e5a9a62b0822c00.png",
     "static/media/logo.png": "/djp-fiction/static/media/logo.a07ace4cc4cee3a2cbe2.png",
     "index.html": "/djp-fiction/index.html",
     "main.89822632.css.map": "/djp-fiction/static/css/main.89822632.css.map",
-    "main.25c38a0b.js.map": "/djp-fiction/static/js/main.25c38a0b.js.map",
+    "main.79152b74.js.map": "/djp-fiction/static/js/main.79152b74.js.map",
     "453.2071f894.chunk.js.map": "/djp-fiction/static/js/453.2071f894.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89822632.css",
-    "static/js/main.25c38a0b.js"
+    "static/js/main.79152b74.js"
   ]
 }
