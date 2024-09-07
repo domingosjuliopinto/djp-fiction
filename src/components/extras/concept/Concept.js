@@ -5,10 +5,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // importing Character Images
-import {sundayPrian_Boroventia_Gym_Concept} from '../../../utils/image_links/concept_art/sundayPrianConcept'
-import {ryushShin_Boroventia_Gym_Concept} from '../../../utils/image_links/concept_art/ryushShinConcept'
-import {vaitShin_Boroventia_Gym_Concept} from '../../../utils/image_links/concept_art/vaitShinConcept'
-import {aayiBarbooza_NLhack_Concept} from '../../../utils/image_links/concept_art/aayiBarboozaNLhackConcept'
+import { sundayPrian_Boroventia_Gym_Concept } from '../../../utils/image_links/concept_art/sundayPrianConcept'
+import { ryushShin_Boroventia_Gym_Concept } from '../../../utils/image_links/concept_art/ryushShinConcept'
+import { vaitShin_Boroventia_Gym_Concept } from '../../../utils/image_links/concept_art/vaitShinConcept'
+import { aayiBarbooza_NLhack_Concept } from '../../../utils/image_links/concept_art/aayiBarboozaNLhackConcept'
+import { xituAbinoDSteepz_Rockyhack_Concept } from '../../../utils/image_links/concept_art/xituAbinoDSteepzRockyhack';
+import { jivaniBel_WWhack_Concept } from '../../../utils/image_links/concept_art/jivaniBelWWhackConcept';
 
 function Concept() {
     const random = Date.now();
@@ -70,6 +72,36 @@ function Concept() {
                                 <Image
                                     preview={false}
                                     src={aayiBarbooza_NLhack_Concept[1]}
+                                    width={'100%'}
+                                />
+                                }
+                            />
+                        </Space>
+                    </Col>
+                    <Col xs={10} md={6} lg={4} style={{marginBottom:'2%'}}>
+                        <Space size={12}>
+                            <Image
+                                width={'75%'}
+                                src={xituAbinoDSteepz_Rockyhack_Concept[0]+`?${random}`}
+                                placeholder={
+                                <Image
+                                    preview={false}
+                                    src={xituAbinoDSteepz_Rockyhack_Concept[1]}
+                                    width={'100%'}
+                                />
+                                }
+                            />
+                        </Space>
+                    </Col>
+                    <Col xs={10} md={6} lg={4} style={{marginBottom:'2%'}}>
+                        <Space size={12}>
+                            <Image
+                                width={'75%'}
+                                src={jivaniBel_WWhack_Concept[0]+`?${random}`}
+                                placeholder={
+                                <Image
+                                    preview={false}
+                                    src={jivaniBel_WWhack_Concept[1]}
                                     width={'100%'}
                                 />
                                 }

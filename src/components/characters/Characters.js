@@ -5,10 +5,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // importing Character Images
-import {sundayPrian_Boroventia_Gym} from '../../utils/image_links/characters/sundayPrian'
-import {ryushShin_Boroventia_Gym} from '../../utils/image_links/characters/ryushShin'
-import {vaitShin_Boroventia_Gym} from '../../utils/image_links/characters/vaitShin'
-import {aayiBarbooza_NLhack} from '../../utils/image_links/characters/aayiBarboozaNLhack'
+import { sundayPrian_Boroventia_Gym } from '../../utils/image_links/characters/sundayPrian'
+import { ryushShin_Boroventia_Gym } from '../../utils/image_links/characters/ryushShin'
+import { vaitShin_Boroventia_Gym } from '../../utils/image_links/characters/vaitShin'
+import { aayiBarbooza_NLhack } from '../../utils/image_links/characters/aayiBarboozaNLhack'
+import { xituAbinoDSteepz_Rockyhack } from '../../utils/image_links/characters/xituAbinoDSteepzRockyhack';
+import { jivaniBel_WWhack } from '../../utils/image_links/characters/jivaniBelWWhack';
 
 function Characters() {
     const random = Date.now();
@@ -74,6 +76,38 @@ function Characters() {
                                 <Image
                                     preview={false}
                                     src={aayiBarbooza_NLhack[1]}
+                                    width={'100%'}
+                                />
+                                }
+                            />
+                        </Space>
+                    </Col>
+                    <Col xs={10} md={6} lg={4} style={{marginBottom:'2%'}}>
+                        <Space size={12}>
+                            <Image
+                                preview={false}
+                                width={'75%'}
+                                src={xituAbinoDSteepz_Rockyhack[0]+`?${random}`}
+                                placeholder={
+                                <Image
+                                    preview={false}
+                                    src={xituAbinoDSteepz_Rockyhack[1]}
+                                    width={'100%'}
+                                />
+                                }
+                            />
+                        </Space>
+                    </Col>
+                    <Col xs={10} md={6} lg={4} style={{marginBottom:'2%'}}>
+                        <Space size={12}>
+                            <Image
+                                preview={false}
+                                width={'75%'}
+                                src={jivaniBel_WWhack[0]+`?${random}`}
+                                placeholder={
+                                <Image
+                                    preview={false}
+                                    src={jivaniBel_WWhack[1]}
                                     width={'100%'}
                                 />
                                 }
