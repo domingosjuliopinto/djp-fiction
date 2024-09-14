@@ -9,8 +9,10 @@ import sundayPrianInterviewConcept from '../../concept_art/sunday_Prian/djpf1/su
 import sundayPrianInterviewConcept_mini from '../../while_loading/characters/sunday_Prian/djpf1/sundayPrian_Interview.png'
 
 // Packaging
-const sundayPrian_Boroventia_Gym_Concept = [sundayPrianBoroventiaGymConcept,sundayPrianBoroventiaGymConcept_mini]
-const sundayPrian_Interview_Concept = [sundayPrianInterviewConcept,sundayPrianInterviewConcept_mini]
+const sunday_Prian_Concept = []
+
+sunday_Prian_Concept.push([sundayPrianBoroventiaGymConcept,sundayPrianBoroventiaGymConcept_mini,"Boroventia Gym"])
+sunday_Prian_Concept.push([sundayPrianInterviewConcept,sundayPrianInterviewConcept_mini,"Interview"])
 
 // Exporting
-export {sundayPrian_Boroventia_Gym_Concept, sundayPrian_Interview_Concept}
+export {sunday_Prian_Concept}

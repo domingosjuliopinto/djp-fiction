@@ -5,7 +5,9 @@ import ryushShinBoroventiaGymConcept from '../../concept_art/ryush_Shin/djpf1/ry
 import ryushShinBoroventiaGymConcept_mini from '../../while_loading/concept_art/ryush_Shin/djpf1/ryushShin_Boroventia_Gym_concept.jpg'
 
 // Packaging
-const ryushShin_Boroventia_Gym_Concept = [ryushShinBoroventiaGymConcept,ryushShinBoroventiaGymConcept_mini]
+const ryush_Shin_Concept = []
+
+ryush_Shin_Concept.push([ryushShinBoroventiaGymConcept,ryushShinBoroventiaGymConcept_mini,"Boroventia Gym"])
 
 // Exporting
-export {ryushShin_Boroventia_Gym_Concept}
+export {ryush_Shin_Concept}
