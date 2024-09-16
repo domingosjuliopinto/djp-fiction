@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/djp-fiction/static/css/main.89822632.css",
-    "main.js": "/djp-fiction/static/js/main.79152b74.js",
+    "main.css": "/djp-fiction/static/css/main.a109a3f7.css",
+    "main.js": "/djp-fiction/static/js/main.8bbde5e1.js",
     "static/js/453.2071f894.chunk.js": "/djp-fiction/static/js/453.2071f894.chunk.js",
     "static/media/riverside_Road.jpg": "/djp-fiction/static/media/riverside_Road.0663e23b255bd0155293.jpg",
     "static/media/sundayPrian_Boroventia_Gym_concept.jpg": "/djp-fiction/static/media/sundayPrian_Boroventia_Gym_concept.451ed2b619cd218f5c8b.jpg",
@@ -23,12 +23,12 @@
     "static/media/xituAbinoDSteepz_Rockyhack.png": "/djp-fiction/static/media/xituAbinoDSteepz_Rockyhack.50883e5a9a62b0822c00.png",
     "static/media/logo.png": "/djp-fiction/static/media/logo.a07ace4cc4cee3a2cbe2.png",
     "index.html": "/djp-fiction/index.html",
-    "main.89822632.css.map": "/djp-fiction/static/css/main.89822632.css.map",
-    "main.79152b74.js.map": "/djp-fiction/static/js/main.79152b74.js.map",
+    "main.a109a3f7.css.map": "/djp-fiction/static/css/main.a109a3f7.css.map",
+    "main.8bbde5e1.js.map": "/djp-fiction/static/js/main.8bbde5e1.js.map",
     "453.2071f894.chunk.js.map": "/djp-fiction/static/js/453.2071f894.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89822632.css",
-    "static/js/main.79152b74.js"
+    "static/css/main.a109a3f7.css",
+    "static/js/main.8bbde5e1.js"
   ]
 }
